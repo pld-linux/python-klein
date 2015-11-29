@@ -9,7 +9,7 @@ Source0:	https://pypi.python.org/packages/source/k/%{module}/%{module}-%{version
 # Source0-md5:	0aec7a0c1e373ea3e994b1266cf5281f
 URL:		https://github.com/twisted/klein
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-TwistedCore >= 12.1
 Requires:	python-werkzeug
 BuildArch:	noarch
